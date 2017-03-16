@@ -4,13 +4,13 @@ A CLI tool created to query a mySQL Database. Based on the python-mysqlconnector
 ## Installation 
 
 1) Clone or Download this project in your computer:
-`git clone git@github.com:akaped/SQLshrimp.git`
-`wget https://github.com/akaped/SQLshrimp.git `
+- `git clone git@github.com:akaped/SQLshrimp.git`
+- `wget https://github.com/akaped/SQLshrimp.git `
 
 2) Be sure to install argparse and mysql-connector before running the script:
 
-`pip3 install mysql-connector-python-rf==2.2.2`
-`pip3 install argparse`
+- `pip3 install mysql-connector-python-rf==2.2.2`
+- `pip3 install argparse`
 
 
 
