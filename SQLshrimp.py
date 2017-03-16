@@ -1,7 +1,18 @@
 """  SQL Shrimps allows you to Query ANY SQLDB from CLI \n If no parameters are specified it connects to Rfam DB """
 
-import mysql.connector
-import argparse
+import sys
+
+try:
+    import mysql.connector
+except ImportError:
+    sys.exit("""You need mysql-connector
+                install it --> pip install mysql-connector-python-rf==2.2.2""")
+try:
+    import argparse
+except ImportError:
+    sys.exit("""You need argparse
+                install it --> pip install argparse""")
+
 
 
 def connect(args):
