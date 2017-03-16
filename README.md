@@ -18,7 +18,7 @@ or
 
 `SQLshrimp.py [-h] [-q QUERY] [-db DB] [-usr USER] [-host HOST][-port PORT]`
 
-  SQL Shrimps allows you to Query ANY SQLDB from CLI
+  SQL Shrimps allows you to Query ANY SQL database from CLI
  If no parameters are specified it connects to Rfam DB
 
 ### Optional arguments:
