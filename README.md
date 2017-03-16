@@ -21,10 +21,10 @@ or
   SQL Shrimps allows you to Query ANY SQLDB from CLI
  If no parameters are specified it connects to Rfam DB
 
-* optional arguments:
-  -h, --help            show this help message and exit
-  -q QUERY, --query QUERY Processes a Query
-  -db DB, --db DB         Defines the Db to use
-  -usr USER, --user USER  Defines the User
-  -host HOST, --host HOST Defines the Host
-  -port PORT, --port PORT Defines the Port
+### Optional arguments:
+*  -h, --help            show this help message and exit
+*  -q QUERY, --query QUERY Processes a Query
+*  -db DB, --db DB         Defines the Db to use
+*  -usr USER, --user USER  Defines the User
+*  -host HOST, --host HOST Defines the Host
+*  -port PORT, --port PORT Defines the Port
