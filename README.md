@@ -16,15 +16,15 @@ A CLI tool created to query a mySQL Database. Based on the python-mysqlconnector
 
 ## USAGE
 
+  SQL Shrimps allows you to Query ANY SQL database from CLI.
+ If no parameters are specified it connects to Rfam DB.
+
 `python3 SQLshrimp.py`
 
 or
 
 
 `SQLshrimp.py [-h] [-q QUERY] [-db DB] [-usr USER] [-host HOST][-port PORT]`
-
-  SQL Shrimps allows you to Query ANY SQL database from CLI
- If no parameters are specified it connects to Rfam DB
 
 ### Optional arguments:
 *  -h, --help            show this help message and exit
