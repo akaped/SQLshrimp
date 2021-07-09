@@ -1,7 +1,7 @@
 # SQLshrimp🦐
 A CLI tool created to query a mySQL Database. Based on the python-mysqlconnector
 
-## Installation 
+## Installation
 
 1) Clone or Download this project in your computer:
 - `git clone git@github.com:akaped/SQLshrimp.git`
@@ -33,3 +33,7 @@ or
 *  -usr USER, --user USER  Defines the User
 *  -host HOST, --host HOST Defines the Host
 *  -port PORT, --port PORT Defines the Port
+*  -o, --output Allows to specify a .tsv file where the results of the query will be dumped.
+*  -qd, --show_databases  Allows to see all databases accessible in the SQL server
+*  -qt, --show_tables  Allows to list all the tables in a database
+*  -qc, --show_columns_of_table Allows to list all columns in a table  
